@@ -9,7 +9,7 @@ const props = defineProps({
   },
   color: {
     type: String,
-    default: "#333",
+    default: "#0077B5",
   },
 });
 const svgName = computed(() => {
@@ -25,20 +25,20 @@ const svgClass = computed(() =>
 </script>
 
 <template>
-    <svg :class="svgClass" aria-hidden="true">
-      <use :xlink:href="svgName" :fill="color" />
-    </svg>
-  </template>
+  <svg :class="svgClass" aria-hidden="true">
+    <use :xlink:href="svgName" :fill="color" />
+  </svg>
+</template>
   
-  <style>
-  .svg-icon {
-    width: 100%;
-    height: 100%;
-    max-width: 100px;
-    max-height: 100px;
-    fill: currentColor;
-    overflow: hidden;
-  }
-  </style>
+<style>
+.svg-icon {
+  width: 100%;
+  height: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  fill: currentColor;
+  overflow: hidden;
+}
+</style>
   
   
