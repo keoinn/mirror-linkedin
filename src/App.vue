@@ -3,6 +3,7 @@
 
 <template>
   <navigation />
+  <router-view />
 </template>
 
 <style scoped>

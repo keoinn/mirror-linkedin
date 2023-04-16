@@ -12,8 +12,12 @@ declare module '@vue/runtime-core' {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     NavIcon: typeof import('./components/NavIcon.vue')['default']
     Navigation: typeof import('./components/Navigation.vue')['default']
+    NavSearch: typeof import('./components/navbar/NavSearch.vue')['default']
+    NavSearchbar: typeof import('./components/navbar/NavSearchbar.vue')['default']
+    NavStatusbar: typeof import('./components/navbar/NavStatusbar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Searchbar: typeof import('./components/navbar/Searchbar.vue')['default']
     SvgIcon: typeof import('./components/SvgIcon.vue')['default']
   }
 }

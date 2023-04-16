@@ -41,7 +41,7 @@ const svgClass = computed(() =>
 .nav-icon {
     width: 90px;
     height: 80px;
-    background-color: aqua;
+    // background-color: aqua;
     // display: flex;
     text-align: center;
     margin: 0 auto;
@@ -52,7 +52,7 @@ const svgClass = computed(() =>
         fill: #181818;
         overflow: hidden;
         position: relative;
-        top: 22.5%
+        top: 22.5%;
     }
 
     .icon-text {
